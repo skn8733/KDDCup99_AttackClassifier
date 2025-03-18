@@ -21,7 +21,7 @@ This project includes the following machine learning models for classification:
 ## Results
 The models were evaluated using accuracy and other performance metrics. The following results were obtained:
 - **Logistic Regression:** Accuracy: 85%, Precision: 83%, Recall: 80%
-- **SVM (DoS vs DDoS):** Accuracy: 90%, Precision: 88%, Recall: 92%
+- **SVM (DoS vs Non-DoS):** Accuracy: 90%, Precision: 88%, Recall: 92%
 These results demonstrate the effectiveness of the models in classifying network traffic.
 
 ## Folder Structure
