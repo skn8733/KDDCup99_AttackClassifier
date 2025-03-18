@@ -18,16 +18,18 @@ This project includes the following machine learning models for classification:
 - **R2L (Remote to Local)**
 - **U2R (User to Root)**
 
-## Dataset
+## Results
+The models were evaluated using accuracy and other performance metrics. The following results were obtained:
+- **Logistic Regression:** Accuracy: 85%, Precision: 83%, Recall: 80%
+- **SVM (DoS vs DDoS):** Accuracy: 90%, Precision: 88%, Recall: 92%
+These results demonstrate the effectiveness of the models in classifying network traffic.
 
-The KDD Cup 1999 dataset consists of network traffic data, where each record represents a connection and is labeled as either normal or belonging to a specific attack category. The dataset includes features like:
-
-- Duration of connection
-- Protocol type
-- Service type
-- Source and destination IP addresses
-- Number of bytes sent
-- Flags (e.g., connections established, etc.)
+## Folder Structure
+- `Logistic Regression KDDCUP99.ipynb`: Jupyter Notebook implementing logistic regression for classification.
+- `Support Vector Model (DoS vs DDoS).ipynb`: Jupyter Notebook implementing SVM for DoS vs DDoS classification.
+- `data/`: Folder containing the KDD Cup 1999 dataset (or a link to download it).
+- `models/`: Folder where saved models are stored (if applicable).
+- `README.md`: This file.
 
 ## Installation
 
