@@ -9,7 +9,7 @@ The primary goal of this project is to develop a classification model that can i
 ## Machine Learning Models
 This project includes the following machine learning models for classification:
 - **Logistic Regression:** A binary classification model to differentiate between normal and attack traffic.
-- **Support Vector Machine (SVM):** Used to classify Denial of Service (DoS) and Distributed Denial of Service (DDoS) attacks specifically.
+- **Support Vector Machine (SVM):** Used to classify Denial of Service (DoS) and Non-DoS attacks specifically.
 - Other models (if applicable) can be included here.
 
 ### Types of Attacks Classified:
@@ -26,7 +26,7 @@ These results demonstrate the effectiveness of the models in classifying network
 
 ## Folder Structure
 - `Logistic Regression KDDCUP99.ipynb`: Jupyter Notebook implementing logistic regression for classification.
-- `Support Vector Model (DoS vs DDoS).ipynb`: Jupyter Notebook implementing SVM for DoS vs DDoS classification.
+- `Support Vector Model (DoS vs Non-DoS).ipynb`: Jupyter Notebook implementing SVM for DoS vs Non-DoS classification.
 - `data/`: Folder containing the KDD Cup 1999 dataset (or a link to download it).
 - `models/`: Folder where saved models are stored (if applicable).
 - `README.md`: This file.
