@@ -33,9 +33,24 @@ These results demonstrate the effectiveness of the models in classifying network
 
 ## Installation
 
+
+
 To get started with this project, clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/yourusername/KDDCup99_AttackClassifier.git
 cd KDDCup99_AttackClassifier
 ```
+## Dependencies
+This project requires the following Python libraries:
+- numpy
+- pandas
+- scikit-learn
+- matplotlib
+- seaborn
+- jupyter
+
+Install these dependencies using pip.
+
+## Acknowledgements
+- The KDD Cup 1999 dataset was provided by the Knowledge Discovery and Data Mining Cup.
